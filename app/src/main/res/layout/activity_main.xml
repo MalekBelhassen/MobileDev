@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+
+        android:text="Welcome"
+        android:textColor="#006666"
+        android:textSize="60dp"
+        android:textStyle="normal"
+        android:layout_marginTop="20dp"
+
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel Booking Application"
+        android:textColor="#ffff99"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffff99"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/EmailAddress"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint=" Adresse Mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#ffff99"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="#ffff99"
+        android:inputType="textPassword"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="25dp"
+
+
+        android:drawablePadding="10dp"/>
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#006666"
+        android:text="Login"
+        android:textStyle="italic"
+        android:textColor="#ffff99"
+        android:textSize="40dp"></Button>
+    <Button
+        android:id="@+id/SingIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#ffb3b3"
+        android:textColor="#ffff99"
+        android:text="Sign in">
+
+    </Button>
+
+</LinearLayout>

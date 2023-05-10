@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/img_1">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Your Desired"
+        android:textSize="44dp"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:textColor="#006666"></TextView>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel"
+        android:textColor="#006666"
+        android:textStyle="italic"
+        android:textSize="44dp"
+        android:layout_gravity="center"></TextView>
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Ibis hotel:"
+                android:textColor="#cc3300"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="26dp"
+                android:background="@drawable/img_6"
+
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="34dp"
+                android:background="@drawable/custom_search_view"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="4.6/10"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star"></ImageView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star"></ImageView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star"></ImageView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star"></ImageView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rating"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="10dp"
+                    android:text="TND 225"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/ibis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#cc3300"
+
+                android:text="Book now"
+                android:textColor="@color/white"
+
+                ></Button>
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Movenpick hotel:"
+                android:textColor="#cc3300"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="26dp"
+                android:background="@drawable/img_5"
+
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="34dp"
+                android:background="@drawable/custom_search_view"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="9.1/10"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star"></ImageView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star"></ImageView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star"></ImageView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star"></ImageView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rating"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="10dp"
+                    android:text="TND 245"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/movenpick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#cc3300"
+
+                android:text="Book now"
+                android:textColor="@color/white"
+
+                ></Button>
+
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Borj Dhiafa hotel:"
+                android:textColor="#cc3300"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="26dp"
+                android:background="@drawable/img"
+
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="34dp"
+                android:background="@drawable/custom_search_view"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="3.4/10"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star"></ImageView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star"></ImageView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star"></ImageView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star"></ImageView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rating"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="10dp"
+                    android:text="TND 293"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Dhiafa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#cc3300"
+
+                android:text="Book now"
+                android:textColor="@color/white"
+
+                ></Button>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

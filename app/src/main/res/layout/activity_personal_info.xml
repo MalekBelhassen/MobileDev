@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".personal_Info"
+    android:background="@drawable/img_1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Informations"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:textColor="#006666"
+        android:textStyle="italic"
+        android:layout_marginTop="26dp"></TextView>
+    <TextView
+        android:id="@+id/hotelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#006666"></TextView>
+
+    <EditText
+        android:id="@+id/Fullname"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:hint="    Please enter Full Name"
+        android:textColorHint="@color/rose"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/border"
+        android:textStyle="bold"></EditText>
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:hint="    Please enter Phone Number"
+        android:layout_gravity="center"
+        android:textColorHint="#ffcccc"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:textStyle="bold"
+        android:inputType="phone"
+        android:maxLength="8"></EditText>
+    <EditText
+        android:id="@+id/PersoNbr"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:hint="    Please enter Number Of person "
+        android:layout_gravity="center"
+        android:textColorHint="#ffcccc"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:textStyle="bold"
+        android:inputType="number"></EditText>
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:entries="@array/type"
+        android:background="@drawable/border"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        ></Spinner>
+    <EditText
+        android:id="@+id/CheckIn"
+        android:layout_marginTop="20dp"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Check In Date"
+        android:background="@color/rose"></EditText>
+    <EditText
+        android:id="@+id/CheckOut"
+        android:layout_marginTop="20dp"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Check Out Date"
+        android:background="@color/rose"></EditText>
+    <Button
+        android:id="@+id/Preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Preview"
+        android:backgroundTint="#006666"
+        android:textSize="30dp"
+        ></Button>
+
+</LinearLayout>
